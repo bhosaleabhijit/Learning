@@ -3,7 +3,7 @@ package testScripts;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import partner.testBase.TestBase;
+import oWeb.testBase.TestBase;
 
 public class TestA extends TestBase {
 	
