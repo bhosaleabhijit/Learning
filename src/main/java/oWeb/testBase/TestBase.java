@@ -48,6 +48,7 @@ public class TestBase {
 	@BeforeSuite
 	public void beforeSuit() {
 		extent = ExtentManager.getInstance();
+		System.out.println("Extent report is initialized...");
 	}
 
 	@BeforeClass
